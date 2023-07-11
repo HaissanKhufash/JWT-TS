@@ -1,0 +1,51 @@
+{
+  "name": "improving-ts-making-an-api-rest",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "dev": "ts-node-dev src/server.ts",
+    "build": "tsc",
+    "lint": "ts-standard"
+  },
+  "keywords": [
+    "typescript",
+    "nodejs",
+    "passport"
+  ],
+  "author": "Haissan Khufash",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "joi": "^17.9.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.3.2",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/joi": "^17.2.3",
+    "@types/jsonwebtoken": "^9.0.2",
+    "@types/morgan": "^1.9.4",
+    "@types/passport": "^1.0.12",
+    "morgan": "^1.10.0",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "ts-standard": "^12.0.2",
+    "typescript": "^5.1.6"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "project": "./tsconfig.json"
+    },
+    "extends": [
+      "./node_modules/ts-standard/eslintrc.json"
+    ]
+  }
+}

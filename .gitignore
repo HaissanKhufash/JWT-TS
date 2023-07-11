@@ -1,0 +1,8 @@
+node_modules
+dist/
+.vscode
+
+# Environment config
+
+src/config/env.ts
+src/config/setEnv.ts
